@@ -1,0 +1,37 @@
+{
+  "name": "news",
+  "displayName": "News",
+  "expo": {
+    "name": "news",
+    "slug": "expo-template-bare",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "version": "1.0.0",
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.s3corp.phat",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.s3corp.phat"
+    },
+    "splash": {
+      "image": "./src/assets/icon.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
